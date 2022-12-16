@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Age Bonus</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- Titolo della pagina principale -->
+      <h1 class="mainTitle">Fasce Bonus</h1>
+      <!-- Tre fasce centrali -->
+      <div class="bands">
+        <!-- Prima fascia -->
+        <div class="firstBand select">
+          <h2 class="border-image-clip-path">Prima Fascia</h2>
+          <p>Età compresa tra 18 e 35 anni</p>
+          <img src="./img/young.jpg" alt="Group of young people">
+          <button class="btn">
+            <span>Seleziona questo riquadro <br>per visualizzare i risultati</span>
+          </button>
+        </div>
+        <!-- Fine prima fascia -->
+        <!-- Seconda fascia -->
+        <div class="secondBand select">
+          <h2 class="border-image-clip-path">Seconda Fascia</h2>
+          <p>Età compresa tra 36 e 64 anni</p>
+          <img src="./img/middle.jpg" alt="Middle aged man">
+          <button class="btn">
+            <span>Seleziona questo riquadro <br>per visualizzare i risultati</span>
+          </button>
+        </div>
+        <!-- Fine seconda fascia -->
+        <!-- Terza fascia -->
+        <div class="thirdBand select">
+          <h2 class="border-image-clip-path">Terza Fascia</h2>
+          <p>Età superiore ai 65 anni</p>
+          <img src="./img/old.jpg" alt="Couple of elderly people">
+          <button class="btn">
+            <span>Seleziona questo riquadro <br>per visualizzare i risultati</span>
+          </button>
+        </div>
+        <!-- Fine terza fascia -->
+        <div class="modalWindow"></div>
+        <div class="userModal"></div>
+      </div>
+      <!-- Fine tre fasce centrali -->
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
